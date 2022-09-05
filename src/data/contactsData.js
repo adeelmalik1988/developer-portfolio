@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'sreerag.rajan5@gmail.com',
-    phone: '+91 9663437669',
-    address: '412 Ground Floor, Indraprastha Colony, Sector 30-33, Faridabad, Haryana, 121003',
+    email: 'adeelmalik1988@gmail.com',
+    phone: '+92 315 1020319',
+    address: 'H no 109, St 65 I-10/1 Islamabad',
 
     sheetAPI: ''
 }

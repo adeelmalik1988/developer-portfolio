@@ -6,17 +6,18 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import cloudIms from '../assets/png/cloudMgmtSys.jpeg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'Cloud IMS for Internet Service Provider',
+        projectDesc: `Multi-Tenant Cloud based Management System whose Frontend is desinged in Reactjs, Backend is powered by AWS and Serverless Database CockroachDB Used`,
+        tags: ['React','Typescript', 'Graphql' ,'AWS', 'PostgreSQL'],
+        code: 'https://github.com/adeelmalik1988/cloud-integrated-management-system',
+        demo: 'https://ims-cloud-aws.netlify.app/',
+        image: cloudIms
     },
     {
         id: 2,

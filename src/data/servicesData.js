@@ -1,9 +1,9 @@
 /* eslint-disable */
-import { BiShoppingBag, BiPencil } from "react-icons/bi";
+import { BiShoppingBag, BiPencil, BiCodeBlock,BiBitcoin, BiData } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
+import { AiOutlineMail, AiFillAudio, AiFillAmazonCircle, AiOutlineCloud } from "react-icons/ai";
 import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
-
+import reactPng from '../assets/png/react.png'
  
 
 export const servicesData = [
@@ -14,13 +14,13 @@ export const servicesData = [
     // },
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
+        title: 'DEVOPS',
+        icon: <BiCodeBlock /> 
     },
     {
         id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
+        title: 'Database Schema Design',
+        icon: <BiData />
     },
     // {
     //     id: 4,
@@ -40,8 +40,8 @@ export const servicesData = [
     },
     {
         id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        title: 'AWS Arcitect',
+        icon: <AiFillAmazonCircle />
     },
     // {
     //     id: 8,
@@ -50,8 +50,8 @@ export const servicesData = [
     // }, 
     {
         id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
+        title: 'Cloud Management Systems',
+        icon: <AiOutlineCloud />
     },
     // {
     //     id: 10,
@@ -60,8 +60,8 @@ export const servicesData = [
     // },
     {
         id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
+        title: 'Smart Contracts',
+        icon: <BiBitcoin />
     },
     // {
     //     id: 12,
