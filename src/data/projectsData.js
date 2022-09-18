@@ -7,53 +7,92 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 import cloudIms from '../assets/png/cloudMgmtSys.jpeg'
-
+import virtualLollyDemo from '../assets/png/virtualLollyDemo.jpeg'
+import quizAppDemop from '../assets/png/quizzAppDemo.jpeg'
+import expenseTrackerDemo from '../assets/png/expenseTracker.jpeg'
+import covidTrackerDemo from '../assets/png/covidTracker.jpeg'
+import diningByFriendsDemo from '../assets/png/diningByFriends.jpeg'
+import waapiStreetFighterDemo from '../assets/png/waapiStreetFighter.jpeg'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Cloud IMS for Internet Service Provider',
-        projectDesc: `Multi-Tenant Cloud based Management System whose Frontend is desinged in Reactjs, Backend is powered by AWS and Serverless Database CockroachDB Used`,
-        tags: ['React','Typescript', 'Graphql' ,'AWS', 'PostgreSQL'],
+        projectName: 'Multi-Tenant Cloud Management System',
+        projectDesc: `Multi-Tenant Cloud based Management System. Frontend is desinged in React, Backend is powered by AWS and Serverless Database CockroachDB Used`,
+        tags: ['React','Typescript','Graphql' ,'AWS Lambda','AWS Appsync', 'PostgreSQL'],
         code: 'https://github.com/adeelmalik1988/cloud-integrated-management-system',
         demo: 'https://ims-cloud-aws.netlify.app/',
         image: cloudIms
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'JAMSTACK based Virtual Lolly',
+        projectDesc: `Backend Stack is deployed by using AWS CDK on Amazon Web Services
+        AWS CloudFront, Gatsby, GraphQL/AWS AppSync, DynamoDB used in Backend
+        Graphql Schema has been written to define Graphql Queries and mutations
+        Frontend is developed in Gatsby and deployed on AWS by using CloudFront
+        For CICD`,
+        tags: ['Gatsby','Graphql','AWS Lambda','AWS Codepipeline','AWS CodeBuild','Typescript'],
+        code: 'https://github.com/adeelmalik1988/eventbridge-awscdk-virtual-lolly-14C',
+        demo: 'https://virtual-lolly-adeelmalik.netlify.app',
+        image: virtualLollyDemo
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'Progressive Web App - Quiz',
+        projectDesc: `Responsive React Quiz App, typescript. For animation effects, Loties files are used to make this Quiz App attractive. 
+        For CSS beautification Bootstrap lib used in the porject.
+        Progressive Web APP
+        Installable on Mobile and Desktop
+        Offline Availability
+        Host on Firebase so Push notification feature embedded`,
+        tags: ['React', 'Typescript','Firebase Notification','PWA','Material UI'],
+        code: 'https://github.com/adeelmalik1988/quiz-app-pwa',
+        demo: 'https://quizapppwa.web.app/',
+        image: quizAppDemop
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Progressive Web App - Expense Tracker',
+        projectDesc: `Expanse Tracker(Type Script) PWA Steps.
+        Material UI has been used for application UI/UX
+        PWA offline avaialblity feature
+        Firebase Push Notification feature
+        Installable Progressive Web App`,
+        tags: ['React', 'Typescript', 'Firebase Notification','PWA','Material UI'],
+        code: 'https://github.com/adeelmalik1988/expense-tracker-pwa',
+        demo: 'https://expense-tracker-74b33.web.app',
+        image: expenseTrackerDemo
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Covid Tracker - Frontend',
+        projectDesc: 'Responsive React based Covid Tracker has been made by using Restful API. Data is gathered from API and displayed in Graphical representation with the help of React State Hook.',
+        tags: ['React', 'Restful', 'Javascript'],
+        code: 'https://github.com/adeelmalik1988/covid-tracker-bootcamp2020',
+        demo: 'http://covid-tracker-adeelmalik.surge.sh/',
+        image: covidTrackerDemo
+    },
+    {
+        id: 6,
+        projectName: 'Dining by Friends - Backend',
+        projectDesc: `Backend Stack is deployed by using AWS CDK on Amazon Web Services
+        Neptune Graph Database, VPC, EC2, Eventbridge, IAM, lambda are the AWS Services that are used in this project
+        Gremlin language is use to populate data on Neptune Graph Database
+        Graphql Schema has been written to define Graphql Queries and mutations`,
+        tags: ['Neptune Graph DB', 'Graphql', 'AWS Lambda','AWS EC2','Gremlin'],
+        code: 'https://github.com/adeelmalik1988/diningByFriends15a',
+        demo: '',
+        image: diningByFriendsDemo
+    },
+    {
+        id: 7,
+        projectName: 'Web Animation API - STREET FIGHTER',
+        projectDesc: `In this WAAPI based project webanimation API is used to develop different moves of Street Fighter Character RYU. Different moves are in separate react component. Each component/element is render on Button Click. React Hooks useEffect and useState are also used to control life cycle of react component.`,
+        tags: ['React', 'WAAPI', 'Javascript'],
+        code: 'https://github.com/adeelmalik1988/street-fighter',
+        demo: 'http://waapi-streetfighter-adeelmalik.surge.sh/',
+        image: waapiStreetFighterDemo
     },
     
 ]

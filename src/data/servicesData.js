@@ -19,7 +19,7 @@ export const servicesData = [
     },
     {
         id: 3,
-        title: 'Database Schema Design',
+        title: 'DB Schema Design',
         icon: <BiData />
     },
     // {
@@ -50,7 +50,7 @@ export const servicesData = [
     // }, 
     {
         id: 9,
-        title: 'Cloud Management Systems',
+        title: 'Cloud Management System',
         icon: <AiOutlineCloud />
     },
     // {

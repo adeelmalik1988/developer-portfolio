@@ -10,7 +10,7 @@ export const achievementData = {
             title : '2020 Complete Bootcamp: Modern Full Stack Serverless Multi-Tenant SaaS Apps',
             details : 'Modern Full Stack Serverless Multi-Tenant SaaS Apps Development',
             date : 'Jul 24, 2021',
-            field : 'Full Stack Coding',
+            field : 'Coding',
             image : bootcamp2020
         },
         {
@@ -18,7 +18,7 @@ export const achievementData = {
             title : 'Presidential Initiative for Artificial Intelligence & Computing',
             details : 'Cloud Native and Mobile Web Computing (CNC)',
             date : 'Mar 13, 2022',
-            field : 'Cloud Native Computing',
+            field : 'Cloud',
             image : piaicCncCertificate
         },
         {
@@ -26,7 +26,7 @@ export const achievementData = {
             title : 'Huawei ICT Associate Cloud Computing Certificate(HCIA)',
             details : 'Cloud Computing Course from Huawei',
             date : 'Dec 20, 2022',
-            field : 'Cloud Deployment',
+            field : 'Cloud',
             image : HCIA
         },
         // {

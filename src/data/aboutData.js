@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Adeel Malik. I'm an aspiring web developer based in Pakistan.",
-    description2: "I am a student at PIAIC, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Hello! My name is Adeel Malik. I'm an aspiring Web Developer based in Pakistan.",
+    description2: `I am a Professional Full Stack Serverless Multi-Tenant SaaS Developer, currently working on Multi-tenant Cloud Management System. A project that I have designed on the latest Art of Tech by using React as a Frontend, powered its Backend with AWS Cloud to handle High User Traffic Efficiently and used Serverless PostgreSQL CockroachDB as a dynamic Database. Other than this I am a Philomathic and as a natural philomath, being able to learn from such a wide variety of sources makes me feel like a kid in a candy store, the main reason for my Experience and Knowledge of Multiple Domains.`,
     image: 2
 }

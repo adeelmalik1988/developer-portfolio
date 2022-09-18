@@ -4,7 +4,7 @@ export const socialsData = {
     linkedIn: 'https://www.linkedin.com/in/adeel-malik-5518184b/',
     instagram: '',
     codepen: '',
-    twitter: '',
+    twitter: 'https://twitter.com/adeelmalik1988',
     reddit: '',
     blogger: '',
     medium: '',

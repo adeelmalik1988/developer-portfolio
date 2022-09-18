@@ -1,14 +1,16 @@
  export const skillsData = [
     'Graphql',
-    'Javascript',
     'MaterialUI',
     'React',
     'AWS',
     'PostgreSQL',
     'MySQL',
     'Typescript',
+    'Firebase',
     'HTML',
-    'CSS'
+    'CSS',
+    'Javascript',
+    'Bootstrap',
 
 ]
 
